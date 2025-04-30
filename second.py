@@ -25,7 +25,7 @@ def load_and_process_data():
     """Loads data, splits it, and saves it to ChromaDB (runs once)."""
     if os.path.exists(chroma_path):
         print(f"ChromaDB already exists at {chroma_path}. Skipping data generation.")
-        return Chroma(persist_directory=chroma_path, embedding_function=MistralAIEmbeddings())
+        return Chroma(persist_directory=None, embedding_function=MistralAIEmbeddings())
     else:
         print("Generating and saving data to ChromaDB...")
         ppt_documents = load_powerpoint_from_folder(folder_path)
