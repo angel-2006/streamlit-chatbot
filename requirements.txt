@@ -1,10 +1,10 @@
 streamlit
 python-pptx
 PyPDF2
-langchain
+langchain==0.1.10
 langchain-chroma
 langchain-groq
 langchain-mistralai
 mistralai
 tiktoken
-pypdf
+pypdf==3.10.0
