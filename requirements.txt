@@ -6,5 +6,5 @@ langchain-chroma
 langchain-groq
 langchain-mistralai
 mistralai
-tiktoken  # Often needed by Langchain
+tiktoken
 pypdf
