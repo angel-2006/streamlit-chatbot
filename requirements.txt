@@ -8,3 +8,5 @@ langchain-mistralai
 mistralai
 tiktoken
 pypdf==3.10.0
+protobuf==3.20.3
+chromadb
