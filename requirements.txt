@@ -7,3 +7,4 @@ langchain-groq
 langchain-mistralai
 mistralai
 tiktoken  # Often needed by Langchain
+pypdf
